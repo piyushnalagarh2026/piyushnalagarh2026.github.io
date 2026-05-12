@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piyush | Web Designer</title>
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      background: #f0f8ff;
+      padding: 20px;
+      margin: 0;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      max-width: 350px;
+      margin: 30px auto;
+    }
+    h1 { color: #1e90ff; font-size: 28px; }
+    p { color: #333; line-height: 1.6; }
+    .btn {
+      background: #25D366;
+      color: white;
+      padding: 14px 28px;
+      text-decoration: none;
+      border-radius: 8px;
+      display: inline-block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Hi, I’m Piyush👋</h1>
+    <p>12th Student from Nalagarh, HP</p>
+    <p><b>I make websites for local businesses</b></p>
+    <p>Starting at just ₹2,999</p>
+    <a href="https://wa.me/919805438355 class="btn">WhatsApp Me</a>
+  </div>
+</body>
+</html>
