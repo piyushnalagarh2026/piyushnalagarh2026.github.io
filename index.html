@@ -1,46 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Piyush | Web Designer</title>
-  <style>
-    body {
-      font-family: Arial;
-      text-align: center;
-      background: #f0f8ff;
-      padding: 20px;
-      margin: 0;
-    }
-    .card {
-      background: white;
-      padding: 25px;
-      border-radius: 15px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-      max-width: 350px;
-      margin: 30px auto;
-    }
-    h1 { color: #1e90ff; font-size: 28px; }
-    p { color: #333; line-height: 1.6; }
-    .btn {
-      background: #25D366;
-      color: white;
-      padding: 14px 28px;
-      text-decoration: none;
-      border-radius: 8px;
-      display: inline-block;
-      margin-top: 15px;
-      font-weight: bold;
-    }
-  </style>
-</</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel G.S. Palace - Nalagarh</title>
+    <style>
+        body {font-family: Arial; margin:0; padding:0; background:#f5f5f5;}
+        .header {background:#b71c1c; color:white; padding:20px; text-align:center;}
+        .header h1 {margin:0; font-size:28px;}
+        .container {padding:15px; max-width:600px; margin:auto;}
+        .card {background:white; padding:20px; margin:15px 0; border-radius:10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);}
+        .btn {display:block; background:#25D366; color:white; padding:16px; text-align:center; text-decoration:none; border-radius:8px; font-size:18px; font-weight:bold; margin:12px 0;}
+        .btn-call {background:#1976D2;}
+        .price {color:#b71c1c; font-size:24px; font-weight:bold;}
+        img {width:100%; border-radius:8px; height:200px; object-fit:cover;}
+    </style>
 </head>
 <body>
-  <div class="card">
-    <h1>Hi, I'm Piyush👋</h1>
-    <p>12th Student from Nalagarh, HP</p>
-    <p><b>I make websites for local businesses</b></p>
-    <p>Starting at just ₹2,999</p>
-    <a href="https://wa.me/919805438355" class="btn">WhatsApp Me</a>
-  </div>
+    <div class="header">
+        <h1>🏨 Hotel G.S. Palace</h1>
+        <p>Nalagarh, Himachal Pradesh</p>
+    </div>
+    
+    <div class="container">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=500" alt="Hotel Room">
+            <h2>Welcome to G.S. Palace</h2>
+            <p>AC Rooms | Free WiFi | Parking | 24x7 Service</p>
+            <p class="price">Room Starting @ ₹1,200/Night</p>
+        </div>
+
+        <div class="card">
+            <h3>📞 Book Direct - Save Money</h3>
+            <a href="https://wa.me/917831804321?text=Hi, I want to book a room in Hotel GS Palace" class="btn">
+                💬 WhatsApp Pe Book Karein
+            </a>
+            <a href="tel:+917831804321" class="btn btn-call">
+                📞 Call Karke Book Karein
+            </a>
+            <p style="text-align:center; font-size:13px; color:grey;">MMT pe ₹1,735 ka room yahan ₹1,200 me.<br>Direct booking = ₹535 Ki Bachat</p>
+        </div>
+
+        <div class="card">
+            <h3>📍 Address</h3>
+            <p>Main Road, Near Bus Stand, Nalagarh, HP 174101</p>
+        </div>
+    </div>
 </body>
 </html>
